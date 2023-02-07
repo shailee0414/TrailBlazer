@@ -10,8 +10,8 @@ const TextContent = () => {
           color: "#453C67",
           justifyContent: "center",
           flexDirection: "column",
-          marginLeft: "10rem",
-          marginRight: "10rem",
+          // marginLeft: "10rem",
+          // marginRight: "10rem",
         }}
       >
         <h4

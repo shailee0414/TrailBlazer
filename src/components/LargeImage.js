@@ -15,7 +15,7 @@ const LargeImage = (data) => {
           style={{
             textAlign: "center",
             position: "absolute",
-            top: "20rem",
+            top: "17rem",
             display: "flex",
             flexDirection: "column",
             width: "100%",
