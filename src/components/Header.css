@@ -1,0 +1,88 @@
+#header{
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#head{
+    display: flex;
+    flex-direction: row;
+}
+#main{
+    width: 100%;
+    margin-left: 2rem;
+}
+#input{
+    display: flex;
+    flex-direction:row;
+    flex-basis: 100em;
+    justify-content: space-between;
+  
+    margin-right: 2rem;
+    height: fit-content;
+    
+}
+#menu{
+    display: flex;
+    justify-content: flex-start;
+flex-direction: row;
+}
+span{
+    margin: .8em;
+    font-size: 1.2em;
+    
+}
+a{
+    color: rgb(71, 68, 68);
+}
+#text{
+    flex-basis: 40em;
+    flex-shrink: 3;
+    
+}
+#button{
+    flex-basis: 20em;
+    /* background-color: blue; */
+    right: 0;
+    display: flex;
+    /* background-color: #301E67; */
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: start;
+    flex-shrink: 2;
+}
+#left{
+    display: flex;
+    flex-direction: row;
+}
+#smallLeft{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#smallmenu{
+    flex-direction: column;
+}
+
+@media(max-width:760px){
+    #head{
+        display: none;
+    }
+    #smallNav{
+       
+
+        display: block;
+    }
+    #button{
+        flex-basis: 15em
+    }
+   
+
+}
+@media(min-width:760px){
+    
+    #smallNav{
+        display: none;
+    }
+   
+}
